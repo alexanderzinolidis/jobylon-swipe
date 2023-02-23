@@ -47,6 +47,10 @@ Here are some improvements that could be made to this app:
 
 -   Add filtering UI to the job list page.
 
+-   Show current and total items on job list page (job 1 of 200).
+
+-   Allow user to "undo" a card swipe, making it appear again.
+
 -   Clicking on a job card should open a modal with more details.
 
 -   Make the loading state nicer, with a spinner or something.
