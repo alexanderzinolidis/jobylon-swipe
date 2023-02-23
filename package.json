@@ -11,9 +11,11 @@
         "@types/node": "^16.18.12",
         "@types/react": "^18.0.28",
         "@types/react-dom": "^18.0.11",
+        "framer-motion": "^9.0.7",
+        "msw": "^1.0.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-motion": "^0.5.2",
+        "react-line-awesome-svg": "^1.0.12",
         "react-scripts": "5.0.1",
         "typescript": "^4.9.5",
         "web-vitals": "^2.1.4",
@@ -22,7 +24,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!react-line-awesome-svg)/\"",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
