@@ -24,7 +24,7 @@ The main source files for this project are located in the src/ directory. The fo
 -   `src/pages`: Containers for the pages that make up the app. Components are used to build the structure of a page. The containers
     may contain business logic and interact with the outer world (e.g. by fetching data from an API).
 
--   `src/types`: This directory contains TypeScript types that are used throughout the app. It's fine to have small types in the same file as the component that uses them, but if a type is used in multiple places, it should be moved to this directory.
+-   `src/types`: This directory contains TypeScript types that are used throughout the app. It's fine to have small types in the same file as the component that uses them, but if a type is common across the app, it should be moved to this directory.
 
 -   `src/App.tsx`: Main entry point for the app. This file contains the root wrapper and the router.
 
