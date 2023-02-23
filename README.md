@@ -1,5 +1,9 @@
 # Jobylon Job List
 
+![Vercel](https://vercelbadge.vercel.app/api/alexanderzinolidis/jobylon-swipe)
+
+View live at https://jobylon-swipe.vercel.app/
+
 This is a simple React app that fetches job listings from Jobylon's API and allows the user to swipe through them in a Tinder like UI. Each job is displayed as a card that shows its title, company, location, experience required, and employment type.
 
 ## Getting started
