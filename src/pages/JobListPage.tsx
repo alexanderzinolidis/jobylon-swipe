@@ -80,7 +80,7 @@ export default function JobListPage() {
             )
 
         default:
-            // Thank you TypeScript for having amazing pattern matching support!
+            // Thank you TypeScript for having amazing pattern matching support! /s
             const _: never = state
             return _
     }
